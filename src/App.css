@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body{
+    margin: 0;
+}
+
+.banner, .dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner > .bannerImage{
+    text-align: end;
+}
+
+.banner > .bannerImage > img {
+    height: 100vh;
+}
+
+section > h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: semi-bold;
+    color: #1c1b4f;
+}
+
+section > p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: regular;
+    color: #707070;
+}
+section > button{
+    background-image: url('./boton-despegamos.svg');
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 200px;
+    padding: 0;
+    border: 0 ; 
+    background-color: transparent;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+section{
+    width: 60%;
+    white-space: pre-line;
+    
+}
+
+.banner > section  {
+    margin-left: 100px;
+    margin-top:42vh;
+}
+.dates{
+    margin-left: 100px;
+    margin-top: 2em
+}
