@@ -1,0 +1,86 @@
+.react-calendar {
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #3b4da164;
+border: 0;
+height: 300px;
+}
+
+.react-calendar__navigation__arrow {
+    display: none;
+}
+
+.react-calendar__navigation__label{
+    border-radius: 10px 10px 0 0;
+    color: rgb(221, 129, 150);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.react-calendar__month-view__days__day--weekend{
+    color: #707070;
+}
+
+.react-calendar__month-view__days__day{
+    color: #707070;
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+.react-calendar__tile--now{
+    background: rgb(160, 196, 255)
+}
+.react-calendar__tile{
+    border-radius: 10px;
+}
+.react-calendar__tile:hover{
+    background-color: transparent;
+}
+.react-calendar__tile--active{
+    background: transparent
+}
+
+.react-calendar__tile--active:first-of-type{
+    background: rgb(160, 196, 255)
+}
+.react-calendar__tile:hover{
+    background: rgb(160, 196, 255) !important;
+}
+
+.react-calendar__tile--rangeStart{
+    background: rgb(160, 196, 255)
+}
+
+.react-calendar__month-view__days{
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.react-calendar__month-view__weekdays{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.react-calendar__tile--hasActive{
+    background: rgb(160, 196, 255)
+}
+.textdiv{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    color: rgb(160, 196, 255);
+    display: block;
+    font-size: 1.2em;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.text.Title{
+    color: rgb(221, 129, 150);
+    margin-bottom: 10px;
+    font-weight: 600;
+}

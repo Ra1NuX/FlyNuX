@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-.banner, .dates{
+.banner, .dates, .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -20,8 +20,9 @@ body{
 section > h1 {
     font-size: 48px;
     font-family: "Montserrat", sans-serif;
-    font-weight: semi-bold;
+    font-weight: 600;
     color: #1c1b4f;
+    margin-top: 10px;
 }
 
 section > p{
@@ -46,14 +47,37 @@ section > button{
 section{
     width: 60%;
     white-space: pre-line;
-    
 }
 
 .banner > section  {
     margin-left: 100px;
-    margin-top:42vh;
+    margin-top:45vh;
 }
 .dates{
     margin-left: 100px;
-    margin-top: 2em
+    margin-top: 5em
+}
+
+
+section > h2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    color: #90dda1;
+}
+
+.contact > section {
+    grid-column: 2;
+    text-align: right;
+    margin-left: 100px;
+}
+.contact > #ContactForm {
+    grid-column: 1;
+    grid-row: 1;
+   width: 60%;
+
+}
+.contact{
+    margin-left: 100px;
+    margin-top: 5em
 }

@@ -1,0 +1,63 @@
+#ContactForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #3b4da164;
+    align-items:stretch;
+    margin-bottom: 5em;
+    margin-left: 0;
+}
+#ContactForm>input{
+    margin-bottom: 10px;
+    border:0 ;
+    background-color: rgb(233, 241, 254);
+    padding: 1em;
+    border-radius: 5px;
+    width: 94%; 
+}
+#questions{
+    margin-bottom: 10px;
+    border:0 ;
+    background-color: rgb(233, 241, 254);
+    padding: 1em;
+    max-width: 100%;
+    resize: vertical
+}
+#questionLabel{
+    color: rgb(221, 129, 150);
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+#policylabel{
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+}
+#policylabel a{
+    color: rgb(221, 129, 150);
+    text-decoration: none;
+}
+#checkbox{
+    display:block
+}
+#ContactForm #btnForm{
+    width: 50% !important;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #76abf1;
+    cursor: pointer;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+}
+#ContactForm #btnForm:hover{
+    background-color: #3a89f0;
+    
+}
+
+#btn{
+cursor: pointer
+}
