@@ -27,7 +27,7 @@ export default function Calendar() {
 
         let todayDate = today.getDate();
         console.log(todayDate, monthDays)
-        const eventDays = getRandomNumbers(todayDate, monthDays, 3)
+        const eventDays = getRandomNumbers(todayDate+1, monthDays, 3)
         const arrayofDates: Array<Date> = []
         for (let i in eventDays) {
             let e = eventDays[i];
@@ -39,7 +39,7 @@ export default function Calendar() {
 
     let dates = getRandomDates()
     return <div style={{ display: "flex" }}>
-        <CalendarR defaultValue={[new Date(dates[1]), new Date(dates[0])]} onChange={() => null} />
+        <CalendarR defaultValue={[new Date(dates[1]), new Date(dates[0])]} onDrillDown={() => function(){}} onClickDay={() => function(){}} onChange={() => function(){}} />
         <div className="textdiv">
             <span className='text Title'>Nuestros Eventos:</span>
             <div className="text">
